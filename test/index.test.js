@@ -31,5 +31,8 @@ describe('Felipe Apostol', function () {
   it('should return javascript as one of his interests', function () {
     expect(id.interests()).to.contain('javascript')
   })
+  it('should return a valid JSON string', function () {
+    expect(id.json()).to.satisfy(JSON.parse)
+  })
 })
 
