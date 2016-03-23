@@ -1,12 +1,17 @@
 {
   "name": "felipeapostol",
-  "version": "1.0.0",
+  "version": "0.0.0-semantically-released",
   "description": "Felipe Apostol Identity Card",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha"
+    "commit": "git-cz",
+    "test": "mocha",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
-  "repository": "https://github.com/flipjs/felipeapostol.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flipjs/felipeapostol.git"
+  },
   "keywords": [
     "felipe",
     "apostol",
@@ -18,5 +23,17 @@
   "bugs": {
     "url": "https://github.com/flipjs/felipeapostol/issues"
   },
-  "homepage": "https://github.com/flipjs/felipeapostol"
+  "homepage": "https://github.com/flipjs/felipeapostol",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "commitizen": "2.7.3",
+    "cz-conventional-changelog": "1.1.5",
+    "mocha": "2.4.5",
+    "semantic-release": "^4.3.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  }
 }
