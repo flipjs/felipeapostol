@@ -6,6 +6,7 @@ module.exports = {
   birthDate: birthDate,
   interests: interests,
   job: job,
+  location: location,
   json: json
 }
 
@@ -21,7 +22,8 @@ function bio () {
       'mechanical keyboards',
       'javascript'
     ],
-    job: 'Software Developer'
+    job: 'Software Developer',
+    location: 'UK'
   }
 }
 
@@ -47,6 +49,10 @@ function interests () {
 
 function job () {
   return bio().job
+}
+
+function location () {
+  return bio().location
 }
 
 function json () {

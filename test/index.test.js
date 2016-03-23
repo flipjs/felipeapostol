@@ -17,6 +17,9 @@ describe('Felipe Apostol', function () {
   it('should return Software Developer as his job', function () {
     expect(id.job()).to.equal('Software Developer')
   })
+  it('should return UK as his location', function () {
+    expect(id.location()).to.equal('UK')
+  })
   it('should return an array of interests', function () {
     expect(id.interests()).to.satisfy(isArrayOfStrings)
     function isArrayOfStrings (array) {
