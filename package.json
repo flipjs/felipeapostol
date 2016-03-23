@@ -1,0 +1,22 @@
+{
+  "name": "felipeapostol",
+  "version": "1.0.0",
+  "description": "Felipe Apostol Identity Card",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "https://github.com/flipjs/felipeapostol.git",
+  "keywords": [
+    "felipe",
+    "apostol",
+    "flipjs",
+    "flipjsio"
+  ],
+  "author": "Felipe Apostol <flipjs.io@gmail.com> (http://flipjs.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flipjs/felipeapostol/issues"
+  },
+  "homepage": "https://github.com/flipjs/felipeapostol"
+}
